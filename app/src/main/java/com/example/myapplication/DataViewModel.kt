@@ -32,7 +32,9 @@ class DataViewModel() : ViewModel() {
              */
             dataModel.postValue(repository)
 
-            //cara kedua
+            /*cara kedua : cara ini dilakukan dengan meng-asign nilai satu persatu
+              ke variabel dengan mengambil data dari class DataModel
+            */
             temp.postValue(repository.main.temp.toString() + " \u2103")
             wind.postValue(repository.wind.speed.toString() + "m/s")
             hum.postValue(repository.main.humidity.toString() + "%")
