@@ -19,11 +19,17 @@ class DataViewModel() : ViewModel() {
         value = getGreetingMsg() != "Good Night" || getGreetingMsg() != "Good Evening"
     }
     val greetings = MutableLiveData<String>().apply { value = getGreetingMsg() }
+    val dataModel = MutableLiveData<DataModel>().apply { }
 
     fun getDataWeather(){
         GlobalScope.launch {
             val repository = Services.retrofit.getData()
             kota.postValue(repository.name)
+
+            //cara pertama
+            dataModel.postValue(repository)
+
+            //cara kedua
             temp.postValue(repository.main.temp.toString() + " \u2103")
             wind.postValue(repository.wind.speed.toString() + "m/s")
             hum.postValue(repository.main.humidity.toString() + "%")

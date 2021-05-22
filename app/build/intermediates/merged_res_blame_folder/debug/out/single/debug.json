@@ -40,12 +40,12 @@
         "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_ac_unit_24.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_filter_drama_24.png.flat",
         "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_filter_drama_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -84,12 +84,12 @@
         "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_brightness_3_24.png"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_wb_sunny_24.png.flat",
-        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_wb_sunny_24.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_brightness_3_24.png.flat",
         "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_brightness_3_24.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_wb_sunny_24.png.flat",
+        "source": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_wb_sunny_24.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
