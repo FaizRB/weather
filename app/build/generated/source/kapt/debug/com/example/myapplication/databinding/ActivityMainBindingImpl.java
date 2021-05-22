@@ -90,7 +90,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.vm == variableId) {
-            setVm((com.example.myapplication.DataViewModel) variable);
+            setVm((com.example.myapplication.MainViewModel) variable);
         }
         else {
             variableSet = false;
@@ -98,7 +98,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             return variableSet;
     }
 
-    public void setVm(@Nullable com.example.myapplication.DataViewModel Vm) {
+    public void setVm(@Nullable com.example.myapplication.MainViewModel Vm) {
         this.mVm = Vm;
         synchronized(this) {
             mDirtyFlags |= 0x100L;
@@ -217,7 +217,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         java.lang.String vmKotaGetValue = null;
         androidx.lifecycle.MutableLiveData<java.lang.Boolean> vmIsDay = null;
         java.lang.Boolean vmIsDayGetValue = null;
-        com.example.myapplication.DataViewModel vm = mVm;
+        com.example.myapplication.MainViewModel vm = mVm;
         com.example.myapplication.DataModel vmDataModelGetValue = null;
         androidx.lifecycle.MutableLiveData<java.lang.String> vmDate = null;
         java.lang.String vmDateGetValue = null;

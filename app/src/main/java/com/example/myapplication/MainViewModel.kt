@@ -7,7 +7,7 @@ import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
 
-class DataViewModel() : ViewModel() {
+class MainViewModel() : ViewModel() {
 
     val kota = MutableLiveData<String>().apply { value = "Jakarta" }
     val date = MutableLiveData<String>().apply { value = getDateTime() }
