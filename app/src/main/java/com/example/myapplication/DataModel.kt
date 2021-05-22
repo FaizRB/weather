@@ -1,7 +1,5 @@
 package com.example.myapplication
 
-import org.json.JSONObject
-
 data class DataModel (
     val name: String? = "",
     val cod: Int? = 0,
@@ -11,10 +9,10 @@ data class DataModel (
 )
 
 data class CuacaList (
-    val id: Int,
-    val main: String,
-    val description: String,
-    val icon: String
+    val id: Int ? = 0,
+    val main: String? = "",
+    val description: String ? = "",
+    val icon: String? = ""
 )
 
 data class MainData(
