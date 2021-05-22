@@ -1,5 +1,5 @@
 # weather
-## Aplikasi Weater Menggunakan Arsitektur MVVM(Model View ViewModel)
+## Aplikasi Weather Menggunakan Arsitektur MVVM(Model View ViewModel)
 
 Screenshot aplikasi
 
