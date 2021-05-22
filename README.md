@@ -5,5 +5,5 @@ Aplikasi ini menggunakan Retrofit2 versi 2.9.0 sebagai Client HTTP dan arsitektu
 
 Screenshot aplikasi
 
-<img src="https://github.com/FaizRB/weather/blob/master/WhatsApp%20Image%202021-05-22%20at%2014.30.12.jpeg">
+<img src="sc.jpeg">
 
