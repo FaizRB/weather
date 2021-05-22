@@ -26,7 +26,10 @@ class DataViewModel() : ViewModel() {
             val repository = Services.retrofit.getData()
             kota.postValue(repository.name)
 
-            //cara pertama : cara ini akan membuat code lebih sedikit lagi
+            /*cara pertama : cara ini akan membuat code lebih sedikit karena
+              data yang ditampilkan pada view "@{vm.dataModel.wind.speed.toString() + `m/s`}"
+              akan diambil langsung dari class DataModel
+             */
             dataModel.postValue(repository)
 
             //cara kedua
