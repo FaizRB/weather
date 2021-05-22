@@ -26,7 +26,7 @@ class DataViewModel() : ViewModel() {
             val repository = Services.retrofit.getData()
             kota.postValue(repository.name)
 
-            //cara pertama
+            //cara pertama : cara ini akan membuat code lebih sedikit lagi
             dataModel.postValue(repository)
 
             //cara kedua
