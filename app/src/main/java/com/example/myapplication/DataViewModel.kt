@@ -24,7 +24,6 @@ class DataViewModel() : ViewModel() {
     fun getDataWeather(){
         GlobalScope.launch {
             val repository = Services.retrofit.getData()
-            kota.postValue(repository.name)
 
             /*cara pertama : cara ini akan membuat code lebih sedikit karena
               data yang ditampilkan pada view "@{vm.dataModel.wind.speed.toString() + `m/s`}"
@@ -35,6 +34,8 @@ class DataViewModel() : ViewModel() {
             /*cara kedua : cara ini dilakukan dengan meng-asign nilai satu persatu
               ke variabel dengan mengambil data dari class DataModel
             */
+
+            kota.postValue(repository.name)
             temp.postValue(repository.main.temp.toString() + " \u2103")
             wind.postValue(repository.wind.speed.toString() + "m/s")
             hum.postValue(repository.main.humidity.toString() + "%")
